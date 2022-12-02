@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+   
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #A7D2CB;
+  }
+   
+  .catatan-app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+   
+  }
+
+  .catatan-app__header {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 2px solid #5e3443;
+    margin-bottom: 30px;
+  }
+   
+  .catatan-app__header  h1 {
+    font-weight: normal;
+    margin-bottom: 35px;
+    font-size: 45px;
+    flex: 1;
+  }
+  
+  .navigation ul li {
+    display: inline-block;
+    padding: 16px;
+  }
+
+  .navigation ul li a {
+    font-size: 28px;
+    color: black;
+  }
+
+  .catatan-item {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background-color: #F2D388;
+    margin: 24px 0;
+    border: 2px dashed #C98474;
+    border-radius: 8px;
+    color: #5e3443;
+  }
+   
+  .catatan-item__body {
+    border-left: 1px solid #aaa;
+    margin-left: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    flex: 1;
+  }
+   
+  .catatan-item__title {
+    padding: 4px 0;
+  }
+   
+  .catatan-item__username {
+    font-weight: lighter;
+    border-top: 1px solid #C98474;
+    margin-top: 10px;
+  }
+   
+  .catatan-item__delete {
+    padding: 8px;
+    font-size: 18px;
+    background-color: rgba(199, 68, 20, 0.973);
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+   
+  .catatan-input {
+    border: 2px dashed #C98474;
+    padding: 17px;
+    margin: 13px 0;
+    border-radius: 8px;
+    margin-bottom: 34px;
+    background-color:#F2D388
+  }
+   
+  .catatan-input input {
+    display: block;
+    width: 100%;
+    padding: 9px;
+    margin: 8px 0;
+    font-family: 'Inter', sans-serif;
+  }
+   
+  .catatan-input button {
+    width: 100%;
+    padding: 9px;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .search-bar {
+    display: block;
+    width: 100%;
+    margin: 16px 0;
+    padding: 12px;
+    background-color: transparent;
+    font-family: 'Inter', sans-serif;
+    border: 2px dashed black;
+    border-radius: 4px;
+  }
